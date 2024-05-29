@@ -1,13 +1,13 @@
-# lru-cache
+# @aliothor/lru-cache
 
 <!-- automd:badges color=yellow -->
 
-[![npm version](https://img.shields.io/npm/v/lru-cache?color=yellow)](https://npmjs.com/package/lru-cache)
-[![npm downloads](https://img.shields.io/npm/dm/lru-cache?color=yellow)](https://npmjs.com/package/lru-cache)
+[![npm version](https://img.shields.io/npm/v/@aliothor/lru-cache?color=yellow)](https://npmjs.com/package/@aliothor/lru-cache)
+[![npm downloads](https://img.shields.io/npm/dm/@aliothor/lru-cache?color=yellow)](https://npmjs.com/package/@aliothor/lru-cache)
 
 <!-- /automd -->
 
-This is my package description.
+Simple “Least Recently Used” (LRU) cache.
 
 ## Usage
 
@@ -17,43 +17,43 @@ Install package:
 
 ```sh
 # ✨ Auto-detect
-npx nypm install lru-cache
+npx nypm install @aliothor/lru-cache
 
 # npm
-npm install lru-cache
+npm install @aliothor/lru-cache
 
 # yarn
-yarn add lru-cache
+yarn add @aliothor/lru-cache
 
 # pnpm
-pnpm install lru-cache
+pnpm install @aliothor/lru-cache
 
 # bun
-bun install lru-cache
+bun install @aliothor/lru-cache
 ```
 
 <!-- /automd -->
 
 Import:
 
-<!-- automd:jsimport cjs cdn name="lru-cache" -->
+<!-- automd:jsimport cjs cdn name="@aliothor/lru-cache" -->
 
 **ESM** (Node.js, Bun)
 
 ```js
-import {} from "lru-cache";
+import { ArrayLRUCache, MapLRUCache } from "@aliothor/lru-cache";
 ```
 
 **CommonJS** (Legacy Node.js)
 
 ```js
-const {} = require("lru-cache");
+const { ArrayLRUCache, MapLRUCache } = require("@aliothor/lru-cache");
 ```
 
 **CDN** (Deno, Bun and Browsers)
 
 ```js
-import {} from "https://esm.sh/lru-cache";
+import { ArrayLRUCache, MapLRUCache } from "https://esm.sh/@aliothor/lru-cache";
 ```
 
 <!-- /automd -->
